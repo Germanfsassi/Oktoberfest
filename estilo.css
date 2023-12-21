@@ -1,0 +1,228 @@
+
+a {
+  text-decoration: none;
+}
+
+a b {
+  text-decoration: underline;
+  color: #f1c035;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+}
+
+
+h1{
+  font-family: 'Londrina Solid', sans-serif;
+}
+
+h2 {
+  font-family: 'Londrina Solid', sans-serif;
+  font-size: 3.1rem;
+}
+
+p {
+  font-family: 'Londrina Solid', sans-serif;
+  font-size: 1.8rem;
+
+}
+
+li{
+  color: white;
+  font-size: 1.5rem;
+}
+
+/*Inicio barra de navegacion*/
+.nav-item {
+  font-family: 'Londrina Solid', sans-serif;
+}
+
+
+.navbar {
+text-decoration: none;
+}
+
+.nav-link a:hover {
+  color: #f1c035;
+}
+
+  /* fin barra de navegacion*/
+ 
+  .header{
+    background-image: url(img/textura_cerveza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .linea_artistica {
+    background-image: url(img/linea_artistica.jpg);
+  }
+
+  /* boton redondo*/
+ .botonredondo {
+  border-radius: 3.1rem; 
+  background-color: transparent; 
+  border: 0.1rem solid black; 
+ 
+}
+
+ /* boton redondo*/
+
+ .grillaartistica{
+  background-image: url(img/fondogrillaartistica.jpg);
+ }
+
+ /* footer*/
+ footer {
+      background-color: #ff8000; /* Color naranja */
+      color: #fff; /* Color de texto blanco */
+      padding: 1.2rem 0;
+      text-align: center;
+    }
+
+    .social-icons {
+      font-size: 1.5rem;
+      margin-right: 1.8rem;
+    }
+   /* footer*/
+
+
+   /* PAGINA ARTISTAS */
+   .artistas {
+    background-color: #E39704;
+   }
+
+  
+   .botonconocemas{
+    border: none; 
+    color: black;
+    background-color: #FCCC03;
+    font-family: 'Londrina Solid', sans-serif;
+   }
+   
+   .form-label{
+    font-family: 'Londrina Solid', sans-serif;
+   }
+
+   .cerveza {
+    background-color: #8DA7B5;
+
+   }
+
+   .fotoedicionanterior {
+    background-color: #8DA7B5;
+   }
+  /* FIN PAGINA ARTISTAS */
+
+
+  .nosinteresaconocerte{
+    background-image: url(img/imagenes/fondoimagenes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+  }
+
+
+  .header-imagenes{
+    background-image: url(img/imagenes/imagen.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+  }
+
+  .anteriores{
+    background-color: #CF6D36;
+  }
+  .imagenedicionanterior {
+    background-color: #8DA7B5; 
+    font-family: 'Londrina Solid', sans-serif;
+    text-align: center;
+
+  }
+
+  .vermasimagenes{
+    background-color: #CF6D36;
+  }
+
+.programacion h2{
+  color: white;
+}
+  .programacion ul li {
+    color: white;
+    list-style: none;
+    font-family: 'Londrina Solid', sans-serif;
+  }
+
+  h3{
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 1.8rem;
+  }
+
+  #carouselExampleControls {
+    background-color: rgb(78, 139, 139);
+}
+
+
+  .artistaaas{
+    color: #FCCC03;
+  }
+
+ul{
+  font-family: 'Londrina Solid', sans-serif; 
+  padding: 0;
+}
+
+
+.footerr{
+  font-size: 0.93rem; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0 auto;
+}
+
+.lineaa {
+  margin-top: 0.3125rem;
+    margin-bottom: 1.25rem;
+}
+
+.lineaadistinta{
+  margin-top: 4%; 
+  margin-bottom: 4%;
+}
+
+
+
+@media (max-width: 576px) {
+  .lafiesta {
+      background-color: rgb(255, 145, 0); 
+      padding-top: 4%; padding-bottom: 3%;
+  }
+
+  .imageneses {
+    position: relative;
+    padding-top: 120px;
+  }
+ 
+}
+
+@media (min-width: 576px) {
+  .lafiesta{
+    background-image: url(img/artistas/fondolafiesta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 4%; padding-bottom: 3%;
+   }
+
+   .imageneses {
+    margin-top: 35.875rem; 
+    padding-bottom: 0.875rem;
+  }
+}
+
+.headerbierbus{
+ 
+   background-image: url(img/bierbus/fondoheader.jpg);
+}

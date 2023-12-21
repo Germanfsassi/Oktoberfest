@@ -1,0 +1,257 @@
+
+a {
+  text-decoration: none;
+}
+
+a b {
+  text-decoration: underline;
+  color: #f1c035;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+}
+
+
+h1{
+  font-family: 'Londrina Solid', sans-serif;
+  font-size: 4.3rem;
+}
+
+h2 {
+  font-family: 'Londrina Solid', sans-serif;
+  font-size: 3.1rem;
+}
+
+p {
+  font-family: 'Londrina Solid', sans-serif;
+  font-size: 1.8rem;
+  width: 25rem;
+
+}
+
+li{
+  color: white;
+  font-size: 1.5rem;
+}
+
+/*Inicio barra de navegacion*/
+.nav-item {
+  font-family: 'Londrina Solid', sans-serif;
+}
+
+
+.navbar {
+text-decoration: none;
+}
+
+.nav-link a:hover {
+  color: #f1c035;
+}
+
+  /* fin barra de navegacion*/
+ 
+  .header{
+    background-image: url(img/textura_cerveza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .linea_artistica {
+    background-image: url(img/linea_artistica.jpg);
+  }
+
+ .comprartickets {
+  padding-top: 3%;
+  padding-bottom: 3% ;
+  background-color: #f1c035;
+ }
+
+  /* boton redondo*/
+ .botonredondo {
+  border-radius: 3.1rem; 
+  background-color: transparent; 
+  border: 0.1rem solid black; 
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+ /* boton redondo*/
+
+ .grillaartistica{
+  background-image: url(img/fondogrillaartistica.jpg);
+  padding-top: 3%;
+  padding-bottom: 3%;
+ }
+
+ /* footer*/
+ footer {
+      background-color: #ff8000; /* Color naranja */
+      color: #fff; /* Color de texto blanco */
+      padding: 1.2rem 0;
+      text-align: center;
+    }
+
+    .social-icons {
+      font-size: 1.5rem;
+      margin-right: 1.8rem;
+    }
+   /* footer*/
+
+
+   /* PAGINA ARTISTAS */
+   .artistas {
+    background-color: #E39704;
+    padding-top: 3%;
+    padding-bottom: 3%;
+   }
+
+  
+   .botonconocemas{
+    border: none; 
+    color: black;
+    background-color: #FCCC03;
+    font-family: 'Londrina Solid', sans-serif;
+   }
+   
+
+   .cerveza {
+    background-color: #8DA7B5;
+    padding-top: 3%;
+    padding-bottom: 3%;
+   }
+
+   .fotoedicionanterior {
+    background-color: #8DA7B5;
+   }
+  /* FIN PAGINA ARTISTAS */
+
+
+  .nosinteresaconocerte{
+    background-image: url(img/imagenes/fondoimagenes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+  }
+
+
+  .header-imagenes{
+    background-image: url(img/imagenes/imagen.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:100%;
+  }
+  .imageneses{
+    padding-top: 30%; padding-bottom: 20px;
+  }
+
+  .anteriores{
+    padding-top: 3%; padding-bottom: 3%; background-color: #CF6D36;
+  }
+  .imagenedicionanterior {
+    background-color: #8DA7B5; 
+    font-family: 'Londrina Solid', sans-serif;
+    text-align: center;
+    padding-top: 1%;
+    margin-top: 2%;
+  }
+
+  .vermasimagenes{
+    background-color: #CF6D36;
+    padding-top: 3%; padding-bottom: 3%;
+  }
+
+  .bloqueprogramacion{
+    background-color: #CF6D36;
+  }
+  .programacion{
+
+    padding-top:5% ;
+    color: white;
+    width: 80%;
+    padding-bottom: 5%;
+
+  }
+.programacion h2{
+  color: white;
+}
+  .programacion ul li {
+    color: white;
+    list-style: none;
+    font-family: 'Londrina Solid', sans-serif;
+  }
+
+  h3{
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 1.8rem;
+  }
+
+  .carrouselcolor{
+    padding-top: 2%;
+    background-color: rgb(78, 139, 139);
+    padding-bottom: 2%;
+  }
+
+  .artistaaas{
+    color: #FCCC03;
+  }
+
+ul{
+  font-family: 'Londrina Solid', sans-serif; 
+  padding: 0;
+}
+
+
+.footerr{
+  font-size: 0.93rem; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0 auto;
+}
+
+.lineaa {
+  margin-top: 5px; 
+  margin-bottom: 20px;
+}
+
+.lineaadistinta{
+  margin-top: 4%; 
+  margin-bottom: 4%;
+}
+
+.textolargo{
+  margin-top: 3%;
+   margin-bottom: 3%;
+}
+
+.margenes-verticales {
+ padding-top: 4%; /* Puedes ajustar este valor según lo que necesites */
+  padding-bottom: 4%; /* Puedes ajustar este valor según lo que necesites */
+}
+
+
+@media (max-width: 576px) {
+  .lafiesta {
+      background-color: rgb(255, 145, 0); 
+      padding-top: 4%; padding-bottom: 3%;
+  }
+}
+
+@media (min-width: 576px) {
+  .lafiesta{
+    background-image: url(img/artistas/fondolafiesta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 4%; padding-bottom: 3%;
+   }
+
+}
+
+.headerbierbus{
+  height: 600px; background-image: url(img/bierbus/fondoheader.jpg);
+}
